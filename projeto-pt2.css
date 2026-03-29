@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 100%;
+}
+header {
+    margin: 44px 0px 144px 76px;
+}
+.link-header {
+    font-weight: 600;
+    color: #989D9C;
+    font-size: 24px;
+    margin-right: 23px;
+}
+.button-login {
+    font-weight: 600;
+    background: #665AE1;
+    color: #ffffff;
+    width: 130px;
+    height: 41px;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 50px;
+    border: none;
+}
+.button-login:hover {
+    opacity: 80%;
+}
+.button-login:active {
+    opacity: 60%;
+}
+main {
+    display: inline-flex;
+}
+.logo-image {
+    width: 568;
+    height: 500;
+    margin-left: 125px;
+}
+section {
+    margin-left: 86px;
+}
+h1 {
+    font-weight: 900;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    margin: 0px;
+}
+h2 {
+    font-weight: 400; 
+    color: #515151;
+    font-size: 58px;
+    margin: 0px 0px 32px 0px;
+}
+p {
+    font-weight: 400;
+    color: #848484;
+    width: 515px;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+.button-explore {
+    font-weight: 700;
+    background: #ADFF00;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    font-size: 28px;
+    border-radius: 50px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) ;
+}
+.button-explore:hover {
+    opacity: 80%;
+}
+.button-explore:active {
+    opacity: 60%;
+}
+.button-login, .button-explore, .link-header {
+    cursor: pointer;
+}
+/*<!------Config Responsive------>*/
+@media screen and (max-width: 1299px){
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    header {
+        display: none;
+    }
+    main {
+        display: inline-block;
+    }
+    .logo-image {
+        max-width: 355px;
+        max-height: 318px;
+        display: block;
+        margin: 149px auto 24px;
+    }
+    section {
+        display: block;
+        margin: auto 63.5px;
+        text-align: center;
+    }
+    h1 {
+        font-weight: 900 bold;
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #515151;
+    }
+    h2 {
+        font-weight: 500;
+        width: 232px;
+        height: 37px;
+        color: #515151;
+        font-size: 28px;
+        line-height: 100%;
+        margin: 0px 0px 17px 15px;
+    }
+    p {
+        display: none;
+    }
+}
